@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"font_face": "Fira Code",
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"theme": "Material-Theme.sublime-theme",
+	"word_wrap": false,
+	"spell_check": true,
+	"save_on_focus_lost": true,
+	"auto_complete_commit_on_tab": true,
+	"highlight_modified_tabs": true,
+	"bold_folder_labels": true
+}
