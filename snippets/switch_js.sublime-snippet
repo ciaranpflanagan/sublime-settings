@@ -1,0 +1,31 @@
+<!-- Clone or save this code as js-switch.sublime-snippet into Data/Packages/User. No need to restart Sublime.
+(If you Copy-Paste-SaveAs... with Sublime, be careful not to save as .xml. It's actually hard not to) -->
+
+<!-- Use tabs in this file, not spaces -->
+
+<snippet>
+	<content>
+		<![CDATA[switch (${1:expression}) {
+	case ${2:1}:
+		${3:f1()};
+		break;
+	case ${4:2}:
+		${5:f2()};
+		break;
+	case ${6:3}:
+		${7:f3()};
+		break;
+	default:
+		${8://tab to get here};
+}]]>
+	</content>
+
+	<!-- Set a tabTrigger: how to trigger the snippet -->
+	<tabTrigger>switch</tabTrigger>
+
+	<!-- Optional: Set a description for the tabTrigger -->
+	<description>switch...case...</description>
+
+	<!-- Optional: Set a scope to limit the file types where this snippet will trigger -->
+	<scope>text.html, text.plain, source.js</scope>
+</snippet>

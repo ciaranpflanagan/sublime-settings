@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+EventBus.\$emit('vtNotify', {
+  title: 'Success!',
+	body: '',
+	type: 'success',
+	background: '#1ecc1e;'
+});
+]]></content>
+<tabTrigger>eemit</tabTrigger>
+<description>Create an Emit Event</description>
+<scope>source.js, meta.export.js, meta.object-literal.js, meta.function.js, meta.block.js, meta.function-call.method.js, meta.group.js, meta.function.js, meta.block.js</scope>
+</snippet>
