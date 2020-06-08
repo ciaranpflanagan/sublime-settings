@@ -1,0 +1,21 @@
+[
+	{
+		"keys": ["command+shift+x"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "console.log(${1:}$SELECTION);${0}"
+		}
+	},
+	{
+		"keys": ["command+shift+z"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "\\Log::info(${1:}$SELECTION);${0}"
+		}
+	},
+	{
+		"keys": ["command+shift+a"],
+		"command": "reindent",
+		"args": {"single_line": false}
+	}
+]
